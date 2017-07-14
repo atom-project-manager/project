@@ -1,0 +1,12 @@
+v0.1:
+  ☐ Project::activate
+  ☐ Project::open
+
+v0.2:
+  ☐ ProjectManager::activate (forwards raw props to Project::activate)
+  ☐ ProjectManager::open (forwards raw props to Project::activate)
+
+v0.3:
+  ☐ Add a way for project consumers to be requested by the provider (us) for
+    projects. Project detection can be slow and should be deferred until
+    a UI consumer is asking for projects.
